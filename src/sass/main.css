@@ -120,6 +120,7 @@
 .products-headings__color-first {
   /* dodać var  */
   color: #ffa5ba;
+  font-family: "Titan One";
 }
 
 .products-headings__color-second {
