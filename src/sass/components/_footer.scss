@@ -24,3 +24,29 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 color: var(--text-color-2);
 }
+.footer__social{
+
+}
+.footer__contact{
+    display: flex;
+}
+.footer__contact-link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 186%;
+    /* or 22px */
+    text-align: right;
+    color: var(--text-color-4);
+}
+.footer--span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 186%;
+    /* or 22px */
+    text-align: right;
+    color: var(--text-color-2);
+}
