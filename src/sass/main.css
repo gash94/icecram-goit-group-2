@@ -4,8 +4,7 @@
  * Wszystkie partials podłączamy tutaj.
  */
 * {
-  font-family: "Titan One", cursive;
-  font-family: "DM Sans", sans-serif;
+
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -22,4 +21,24 @@
   margin: 0 auto;
   width: 100%;
   padding: 0 15px;
+
+:root {
+  --font-family-main: "DM Sans", sans-serif;
+  --font-family-headline: "Titan One", cursive;
+  --text-color-1: #ffffff;
+  --text-color-2: #d41443;
+  --text-color-3: #ffa5ba;
+  --text-color-4: #000000;
+  --text-color-5: #907e82;
+  --background-color-1: #e5e5e5;
+  --background-color-2: #fff5f6;
+  --background-color-3: #ffb8ca;
+  --background-color-4: #ffa5ba;
+  --background-color-5: #e17992;
+  --background-color-6: #f0d1a5;
+  --background-color-7: #c2e297;
+  --background-color-8: #fafafa;
+  --background-color-9: #d41342;
+  --icon-background-color: #fea5bb;
+
 }/*# sourceMappingURL=main.css.map */

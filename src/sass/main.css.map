@@ -1,1 +1,2 @@
-{"version":3,"sourceRoot":"","sources":["main.scss","base/_common.scss","base/_container.scss"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAAA;ACAA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACVF;EACI;EACA;EACA;EACA;EACA","file":"main.css"}
+
+{"version":3,"sourceRoot":"","sources":["main.scss","base/_common.scss","base/_container.scss","utils/_variables.scss"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAAA;ACAA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACRF;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA","file":"main.css"}
