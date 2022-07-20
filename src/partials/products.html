@@ -1,0 +1,189 @@
+<style>
+  .container {
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+  :root {
+    --font-family-main: 'DM Sans', sans-serif;
+    --font-family-headline: 'Titan One', cursive;
+    --text-color-1: #ffffff;
+    --text-color-2: #d41443;
+    --text-color-3: #ffa5ba;
+    --text-color-4: #000000;
+    --text-color-5: #907e82;
+    --background-color-1: #e5e5e5;
+    --background-color-2: #fff5f6;
+    --background-color-3: #ffb8ca;
+    --background-color-4: #ffa5ba;
+    --background-color-5: #e17992;
+    --background-color-6: #f0d1a5;
+    --background-color-7: #c2e297;
+    --background-color-8: #fafafa;
+    --background-color-9: #d41342;
+    --icon-background-color: #fea5bb;
+  }
+
+  .products__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .products__box {
+    border-radius: 24px;
+    text-align: center;
+    list-style: none;
+    color: var(--text-color-1);
+    
+    box-sizing: border-box;
+    margin-bottom: 130px;
+  }
+  .products__box--ice-cream::before {
+    background-image: url('../images/products/mobile/product-mobile1.png');
+    content: '';
+    display: inline-block;
+    min-width: 249px;
+    min-height: 252px;
+    margin-top: -115px;
+  }
+  .products__box--ice-cream {
+    /* dodać var */
+    background: #ffb8ca;
+  }
+  .products__box--ice-coffee::before {
+    background-image: url('../images/products/mobile/product-mobile2.png');
+    content: '';
+    display: inline-block;
+    min-width: 249px;
+    min-height: 252px;
+    margin-top: -115px;
+      background-repeat: no-repeat;
+  }
+  .products__box--ice-coffee {
+    background: #f0d1a5;
+  }
+  .products__box--milkshakes::before {
+    background-image: url('../images/products/mobile/product-mobile3.png');
+    content: '';
+    display: inline-block;
+    min-width: 249px;
+    min-height: 252px;
+    margin-top: -115px;
+      background-repeat: no-repeat;
+  }
+  .products__box--milkshakes {
+    background: #c2e297;
+  }
+  .products__descriptions {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+    padding: 0 39px;
+  }
+  .products__descriptions-item {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .products__icon {
+    margin-top: -45%;
+    padding-bottom: 38px;
+  }
+  .products__title {
+    margin-bottom: 144px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 121px;
+  }
+  .products__title--color-first {
+    color: var(--text-color-3);
+  }
+  .products__title--color-second {
+    color: var(--text-color-2);
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .products__list {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .products__box {
+  
+      margin: 0 10px;
+    }
+    .products__box--ice-cream::before {
+      background-image: url('../images/products/tablet/product-tablet1.png');
+      min-width: 220px;
+      min-height: 226px;
+    }
+    .products__box--ice-coffee::before {
+      background-image: url('../images/products/tablet/product-tablet2.png');
+      min-width: 220px;
+      min-height: 226px;
+    }
+    .products__box--milkshakes::before {
+      background-image: url('../images/products/tablet/product-tablet3.png');
+      min-width: 220px;
+      min-height: 226px;
+    }
+  }
+</style>
+
+<section class="container">
+  <div class="products__title">
+    <p class="products__title--color-first">100% natural</p>
+    <h2 class="products__title--color-second">products</h2>
+  </div>
+
+  <ul class="products__list">
+    <li class="products__box products__box--ice-cream">
+      <p class="products__descriptions-item">ice cream</p>
+      <!-- kropeczki -->
+
+      <p class="products__descriptions">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et
+      </p>
+      <!-- strzałka  -->
+    </li>
+
+    <li class="products__box products__box--ice-coffee">
+      <p class="products__descriptions-item">ice coffee</p>
+
+      <p class="products__descriptions">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et
+      </p>
+    </li>
+    <li class="products__box products__box--milkshakes">
+      <p class="products__descriptions-item">milkshakes</p>
+      <!-- kropeczki -->
+      <p class="products__descriptions">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et
+      </p>
+      <!-- strzałka  -->
+    </li>
+  </ul>
+</section>
+
+<!-- kropeczki -->
+<a>
+  <svg>
+    <use href=""></use>
+  </svg>
+</a>
+
+<!-- strzałka  -->
+<svg>
+  <use href=""></use>
+</svg>
