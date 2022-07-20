@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #424242;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #009688;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/demo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+:root {
+  --font-family-main: "DM Sans", sans-serif;
+  --font-family-headline: "Titan One", cursive;
+  --text-color-1: #ffffff;
+  --text-color-2: #d41443;
+  --text-color-3: #ffa5ba;
+  --text-color-4: #000000;
+  --text-color-5: #907e82;
+  --background-color-1: #e5e5e5;
+  --background-color-2: #fff5f6;
+  --background-color-3: #ffb8ca;
+  --background-color-4: #ffa5ba;
+  --background-color-5: #e17992;
+  --background-color-6: #f0d1a5;
+  --background-color-7: #c2e297;
+  --background-color-8: #fafafa;
+  --background-color-9: #d41342;
+  --icon-background-color: #fea5bb;
+}/*# sourceMappingURL=main.css.map */
