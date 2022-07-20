@@ -4,6 +4,18 @@
 .footer__header{
     display: flex;
 }
+@media screen and (min-width: 450px) and (max-width: 1279px) {
+    .footer__header{
+        flex-direction: column;
+        align-items: flex-start;
+}
+}
+@media screen and (min-width: 1280px) {
+    .footer__header{
+        flex-direction: column;
+        align-items: center;
+}
+}
 .footer__header--item1{
     font-family: 'Titan One';
     font-style: normal;
@@ -88,13 +100,19 @@
 .copyright{
     display: flex;
     justify-content: center;
-    width: 320px;
+    width: 100%;
     height: 0px;
     border: 1px solid #E1E1E1;
+    height: 89px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .copyright{
+    height: 73px;
+    }
 }
 @media screen and (min-width: 1280px) {
     .copyright{
-    border: 1px solid #E1E1E1;  
+    height: 45px;  
     }
 }
 .copyright-text {
@@ -107,4 +125,13 @@
     text-align: center;
     color: var(--text-color-5);
 }
+@media screen and (min-width: 768px) {
+    .copyright-text{
+        font-size: 14px;
+        line-height: 186%;
+        /* identical to box height, or 26px */
+        letter-spacing: 0.02em;
+    }
+}
+
 /*copyright*/
