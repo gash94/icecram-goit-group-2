@@ -4,7 +4,6 @@
  * Wszystkie partials podłączamy tutaj.
  */
 * {
-
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -21,6 +20,7 @@
   margin: 0 auto;
   width: 100%;
   padding: 0 15px;
+}
 
 :root {
   --font-family-main: "DM Sans", sans-serif;
@@ -40,5 +40,4 @@
   --background-color-8: #fafafa;
   --background-color-9: #d41342;
   --icon-background-color: #fea5bb;
-
 }/*# sourceMappingURL=main.css.map */
