@@ -24,11 +24,12 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 color: var(--text-color-2);
 }
-.footer__social{
+/*.footer__social{
 
-}
+}*/
 .footer__contact{
     display: flex;
+    list-style: none;
 }
 .footer__contact-link {
     font-family: 'DM Sans';
@@ -50,3 +51,22 @@ color: var(--text-color-2);
     text-align: right;
     color: var(--text-color-2);
 }
+/*copyright*/
+.copyright{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 0px;
+    border: 1px solid #E1E1E1;
+}
+.copyright-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+    /* or 21px */
+    text-align: center;
+    color: var(--text-color-5);
+}
+/*copyright*/
