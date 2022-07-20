@@ -1,0 +1,25 @@
+.button {
+  height: 44px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: var(--font-family-main);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 22px;
+
+  padding-left: 17px;
+  padding-right: 17px;
+  margin: 10px;
+  &--red {
+    color: var(--text-color-1);
+  background-color: var(--background-color-9);
+  }
+  &--white {
+    color: var(--background-color-9);
+  background-color: var(--text-color-1);
+  }
+}
