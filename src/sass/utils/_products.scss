@@ -1,11 +1,11 @@
-.products-list {
+.products__list {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
     justify-content: center;
   }
-  .products-list__box {
+  .products__box  {
     background-color: red;
     border-radius: 24px;
     text-align: center;
@@ -15,17 +15,17 @@
     width: 280px;
     height: 485px;
   }
-  .products-list__box-ice-cream {
+  .products__box--ice-cream {
     /* dodać var */
     background: #ffb8ca;
   }
-  .products-list__box-ice-coffee {
+  .products__box--ice-coffee {
     background: #f0d1a5;
   }
-  .products-list__box-milkshakes {
+  .products__box--milkshakes {
     background: #c2e297;
   }
-  .products-list-descriptions {
+  .products__descriptions {
     font-weight: 700;
     font-size: 16px;
     line-height: 176%;
@@ -34,7 +34,7 @@
     margin: 0 auto;
     padding: 0 39px;
   }
-  .products-list-descriptions-item {
+  .products__descriptions-item {
     font-size: 20px;
     line-height: 23px;
     text-align: center;
@@ -42,24 +42,24 @@
     text-transform: uppercase;
   }
 
-  .product-list__icon {
+  .products__icon{
     margin-top: -45%;
     padding-bottom: 38px;
   }
-  .products-headings {
+  .products__title {
     margin-bottom: 144px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 121px;
   }
-  .products-headings__color-first {
+  .products__title--color-first {
     /* dodać var  */
     color: #ffa5ba;
-    font-family: 'Titan One';
 
   }
-  .products-headings__color-second {
+  .products__title--color-second {
     /* dodać var  */
     color: #d41443;
+    ;
 
   }

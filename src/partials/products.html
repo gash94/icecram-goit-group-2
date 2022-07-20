@@ -1,12 +1,12 @@
 <style>
-  .products-list {
+  .products__list {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     align-items: center;
     justify-content: center;
   }
-  .products-list__box {
+  .products__box  {
     background-color: red;
     border-radius: 24px;
     text-align: center;
@@ -16,17 +16,17 @@
     width: 280px;
     height: 485px;
   }
-  .products-list__box-ice-cream {
+  .products__box--ice-cream {
     /* dodać var */
     background: #ffb8ca;
   }
-  .products-list__box-ice-coffee {
+  .products__box--ice-coffee {
     background: #f0d1a5;
   }
-  .products-list__box-milkshakes {
+  .products__box--milkshakes {
     background: #c2e297;
   }
-  .products-list-descriptions {
+  .products__descriptions {
     font-weight: 700;
     font-size: 16px;
     line-height: 176%;
@@ -35,7 +35,7 @@
     margin: 0 auto;
     padding: 0 39px;
   }
-  .products-list-descriptions-item {
+  .products__descriptions-item {
     font-size: 20px;
     line-height: 23px;
     text-align: center;
@@ -43,7 +43,7 @@
     text-transform: uppercase;
   }
 
-  .product-list__icon {
+  .products__icon{
     margin-top: -45%;
     padding-bottom: 38px;
   }
@@ -53,13 +53,13 @@
     text-transform: uppercase;
     padding-top: 121px;
   }
-  .products__title__color-first {
+  .products__title--color-first {
     /* dodać var  */
     color: #ffa5ba;
   
 
   }
-  .products__title__color-second {
+  .products__title--color-second {
     /* dodać var  */
     color: #d41443;
     ;
@@ -69,50 +69,50 @@
 
 <section class="products" >
   <div class="products__title">
-    <h2 class="products__title__color-first">100% natural</h2>
-    <h1 class="products__title__color-second">products</h1>
+    <h2 class="products__title--color-first">100% natural</h2>
+    <h1 class="products__title--color-second">products</h1>
   </div>
 
-  <ul class="products-list">
-    <li class="products-list__box products-list__box-ice-cream">
+  <ul class="products__list">
+    <li class="products__box products__box--ice-cream">
       <img
-        class="product-list__icon"
+        class="products__icon"
         src="../images/products/mobile/product-mobile1.png"
         alt="ice cream"
       />
-      <h2 class="products-list-descriptions-item">ice cream</h2>
+      <h2 class="products__descriptions-item">ice cream</h2>
       <!-- kropeczki -->
 
-      <p class="products-list-descriptions">
+      <p class="products__descriptions">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et
       </p>
       <!-- strzałka  -->
     </li>
 
-    <li class="products-list__box products-list__box-ice-coffee">
+    <li class="products__box  products__box--ice-coffee">
       <img
-        class="product-list__icon"
+        class="products__icon"
         src="../images/products/mobile/product-mobile2.png"
         alt="ice coffee"
       />
-      <h2 class="products-list-descriptions-item">ice coffee</h2>
+      <h2 class="products__descriptions-item">ice coffee</h2>
 
-      <p class="products-list-descriptions">
+      <p class="products__descriptions">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et
       </p>
     </li>
 
-    <li class="products-list__box products-list__box-milkshakes">
+    <li class="products__box  products__box--milkshakes">
       <img
-        class="product-list__icon"
+        class="products__icon"
         src="../images/products/mobile/product-mobile3.png"
         alt="milkshakes"
       />
-      <h2 class="products-list-descriptions-item">milkshakes</h2>
+      <h2 class="products__descriptions-item">milkshakes</h2>
       <!-- kropeczki -->
-      <p class="products-list-descriptions">
+      <p class="products__descriptions">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et
       </p>
