@@ -19,6 +19,12 @@
   width: 100%;
   padding: 0 15px;
 }
+.container__about {
+  padding-top: 125px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .section {
   padding-top: 66px;
@@ -51,6 +57,10 @@
 .button--white {
   color: var(--background-color-9);
   background-color: var(--text-color-1);
+}
+
+.about {
+  background: var(--background-color-2);
 }
 
 .contacts {
