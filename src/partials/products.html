@@ -38,7 +38,7 @@
     text-align: center;
     list-style: none;
     color: var(--text-color-1);
-    
+    height: 485px;
     box-sizing: border-box;
     margin-bottom: 130px;
   }
@@ -117,29 +117,33 @@
       justify-content: space-around;
     }
     .products__box {
-  
+      height: 485px;
       margin: 0 10px;
     }
     .products__box--ice-cream::before {
       background-image: url('../images/products/tablet/product-tablet1.png');
       min-width: 220px;
       min-height: 226px;
+      background-repeat: no-repeat;
     }
     .products__box--ice-coffee::before {
       background-image: url('../images/products/tablet/product-tablet2.png');
       min-width: 220px;
       min-height: 226px;
+      background-repeat: no-repeat;
     }
     .products__box--milkshakes::before {
       background-image: url('../images/products/tablet/product-tablet3.png');
       min-width: 220px;
       min-height: 226px;
+      background-repeat: no-repeat;
     }
   }
 </style>
 
-<section class="container">
-  <div class="products__title">
+<section >
+  <div class="container">
+  <div class="products__title ">
     <p class="products__title--color-first">100% natural</p>
     <h2 class="products__title--color-second">products</h2>
   </div>
@@ -174,6 +178,7 @@
       <!-- strzałka  -->
     </li>
   </ul>
+  </div>
 </section>
 
 <!-- kropeczki -->
