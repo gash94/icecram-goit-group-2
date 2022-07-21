@@ -15,7 +15,7 @@
     height: 45px;  
     }
 }
-&-text {
+.copyright-text {
     font-family: var(--font-family-main);
     font-style: normal;
     font-weight: 700;
@@ -24,11 +24,12 @@
     /* or 21px */
     text-align: center;
     color: var(--text-color-5);
-}
+
 @media screen and (min-width: 768px) {
     &-text{
         line-height: 186%;
         /* identical to box height, or 26px */
         letter-spacing: 0.02em;
     }
+}
 }
