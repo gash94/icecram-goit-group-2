@@ -68,16 +68,62 @@
         color: var(--text-color-2);
     }
 }
-
-/*&__social{
-
-}*/
+/*social media*/
+&__social-list{
+display: flex;
+flex-direction: row;
+justify-content: right;
+margin-right: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    &__social-list {
+        margin-right: 36px;
+    }
+}
+    @media screen and (min-width: 1280px) {
+        &__social-list {
+            margin-right: 121px;
+        }
+    }
+    &__social-item{
+        margin-left: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+    &__social-item{
+        margin-left: 30px;
+    }
+    }
+@media screen and (min-width: 1280px) {
+    &__social-item{
+        margin-left: 24px;
+        }
+        }
+    &__social-svg{
+        width: 32px;
+        height: 32px;
+    }
+@media screen and (min-width: 768px) {
+    &__social-svg{
+    width: 34px;
+    height: 34px;
+    }
+    }
+@media screen and (min-width: 1280px) {
+    &__social-icon:hover{
+        background-image: "../images/icons.svg#icon-github-desktop";
+        background-image: "../images/icons.svg#icon-telegram-desktop";
+        background-image: "../images/icons.svg#icon-facebook-desktop";
+    }
+}
+/*social media*/
 &__contact{
     display: flex;
     list-style: none;
 }
 &-link {
-    font-family: 'DM Sans';
+    font-family: var(--font-family-main);
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -87,7 +133,7 @@
     color: var(--text-color-4);
 }
 &--span {
-    font-family: 'DM Sans';
+    font-family: var(--font-family-main);
     font-style: normal;
     font-weight: 700;
     font-size: 12px;

@@ -200,9 +200,8 @@
 
 .footer__header {
   display: flex;
-  /*&__social{
-
-  }*/
+  /*social media*/
+  /*social media*/
 }
 @media screen and (min-width: 450px) and (max-width: 1279px) {
   .footer__header__header {
@@ -268,12 +267,60 @@
     color: var(--text-color-2);
   }
 }
+.footer__header__social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer__header__social-list {
+    margin-right: 36px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer__header__social-list {
+    margin-right: 121px;
+  }
+}
+.footer__header__social-item {
+  margin-left: 28px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer__header__social-item {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer__header__social-item {
+    margin-left: 24px;
+  }
+}
+.footer__header__social-svg {
+  width: 32px;
+  height: 32px;
+}
+@media screen and (min-width: 768px) {
+  .footer__header__social-svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer__header__social-icon:hover {
+    background-image: "../images/icons.svg#icon-github-desktop";
+    background-image: "../images/icons.svg#icon-telegram-desktop";
+    background-image: "../images/icons.svg#icon-facebook-desktop";
+  }
+}
 .footer__header__contact {
   display: flex;
   list-style: none;
 }
 .footer__header-link {
-  font-family: "DM Sans";
+  font-family: var(--font-family-main);
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -283,7 +330,7 @@
   color: var(--text-color-4);
 }
 .footer__header--span {
-  font-family: "DM Sans";
+  font-family: var(--font-family-main);
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -322,7 +369,7 @@
   color: var(--text-color-5);
 }
 @media screen and (min-width: 768px) {
-  .copyright-text-text {
+  .copyright-text .copyright-text {
     line-height: 186%;
     /* identical to box height, or 26px */
     letter-spacing: 0.02em;
