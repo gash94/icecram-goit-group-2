@@ -4,7 +4,6 @@
  * Wszystkie partials podłączamy tutaj.
  */
 * {
-  font-weight: 400;
   margin: 0;
   padding: 0;
   border: 0;
@@ -195,6 +194,9 @@
   --icon-background-color: #fea5bb;
 }
 
+.products {
+  max-width: 100%;
+}
 .products__list {
   display: flex;
   flex-direction: column;
@@ -202,31 +204,51 @@
   align-items: center;
   justify-content: center;
 }
-
 .products__box {
-  background-color: red;
   border-radius: 24px;
   text-align: center;
   list-style: none;
-  margin-bottom: 130px;
-  color: #ffffff;
-  width: 280px;
+  color: var(--text-color-1);
   height: 485px;
+  box-sizing: border-box;
+  margin-bottom: 130px;
 }
-
+.products__box--ice-cream::before {
+  background-image: url("/images/products/mobile/product-mobile1.png");
+  content: "";
+  display: inline-block;
+  min-width: 249px;
+  min-height: 252px;
+  margin-top: -115px;
+}
 .products__box--ice-cream {
   /* dodać var */
   background: #ffb8ca;
 }
-
+.products__box--ice-coffee::before {
+  background-image: url("/images/products/mobile/product-mobile2.png");
+  content: "";
+  display: inline-block;
+  min-width: 249px;
+  min-height: 252px;
+  margin-top: -115px;
+  background-repeat: no-repeat;
+}
 .products__box--ice-coffee {
   background: #f0d1a5;
 }
-
+.products__box--milkshakes::before {
+  background-image: url("/images/products/mobile/product-mobile3.png");
+  content: "";
+  display: inline-block;
+  min-width: 249px;
+  min-height: 252px;
+  margin-top: -115px;
+  background-repeat: no-repeat;
+}
 .products__box--milkshakes {
   background: #c2e297;
 }
-
 .products__descriptions {
   font-weight: 700;
   font-size: 16px;
@@ -236,7 +258,16 @@
   margin: 0 auto;
   padding: 0 39px;
 }
-
+.products__descriptions::before {
+  content: "";
+  background-image: url("/images/products/dot.png");
+  display: inline-block;
+  justify-content: center;
+  width: 26px;
+  height: 6px;
+  margin-top: -55px;
+  background-repeat: no-repeat;
+}
 .products__descriptions-item {
   font-size: 20px;
   line-height: 23px;
@@ -244,25 +275,48 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
-
 .products__icon {
   margin-top: -45%;
   padding-bottom: 38px;
 }
-
 .products__title {
   margin-bottom: 144px;
   text-align: center;
   text-transform: uppercase;
   padding-top: 121px;
 }
-
 .products__title--color-first {
-  /* dodać var  */
-  color: #ffa5ba;
+  color: var(--text-color-3);
+}
+.products__title--color-second {
+  color: var(--text-color-2);
 }
 
-.products__title--color-second {
-  /* dodać var  */
-  color: #d41443;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .products__list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .products__box {
+    height: 485px;
+    margin: 0 10px;
+  }
+  .products__box--ice-cream::before {
+    background-image: url("/images/products/tablet/product-tablet1.png");
+    min-width: 220px;
+    min-height: 226px;
+    background-repeat: no-repeat;
+  }
+  .products__box--ice-coffee::before {
+    background-image: url("/images/products/tablet/product-tablet2.png");
+    min-width: 220px;
+    min-height: 226px;
+    background-repeat: no-repeat;
+  }
+  .products__box--milkshakes::before {
+    background-image: url("/images/products/tablet/product-tablet3.png");
+    min-width: 220px;
+    min-height: 226px;
+    background-repeat: no-repeat;
+  }
 }/*# sourceMappingURL=main.css.map */
