@@ -10,16 +10,26 @@
   font-size: 16px;
   line-height: 21px;
   border-radius: 22px;
+  cursor: pointer;
 
-  padding-left: 17px;
-  padding-right: 17px;
-  margin: 10px;
+  padding: 0 17px;
+  margin: 10px 10px;
   &--red {
+    padding: 0 30px;
     color: var(--text-color-1);
     background-color: var(--background-color-9);
+    &:hover,
+    &:focus {
+      background-color: #c7133e;
+    }
   }
   &--white {
+    padding: 0 30px;
     color: var(--background-color-9);
-    background-color: var(--background-color-10);
+    background-color: var(--text-color-1);
+    &:hover,
+    &:focus {
+      background-color: #ecebeb;
+    }
   }
 }

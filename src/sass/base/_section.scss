@@ -3,6 +3,10 @@
   padding-bottom: 66px;
   &__contacts {
     background-color: var(--background-color-2);
+    background-image: url("../images/desktop/contactsbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+        
   }
   &__about {
     padding-top: 125px;
