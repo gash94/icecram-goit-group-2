@@ -92,7 +92,9 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about__container {
     background-image: url("../images/mobile/milk-mobile@1x.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 92% 92%;
     width: 100%;
   }
 }
@@ -104,8 +106,10 @@
 @media screen and (min-width: 1280px) {
   .about__container {
     background-image: url("../images/desktop/milk-desktop@1x.png");
-    background-size: cover;
+    background-size: contain;
     width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 342px;
   }
 }
 @media screen and (min-width: 768px) {
