@@ -1,11 +1,17 @@
+.section {
+    padding-top: 66px;
+    padding-bottom: 66px;
+  &__contacts {
+    background-color: var(--background-color-2);
+  }
+}
+
 @media screen and (min-width: 1280px) {
-    //  desktop
-    
+  //  desktop
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    // tablet
-    
+  // tablet
 }
 @media screen and (min-width: 450px) and (max-width: 767px) {
-//mobile
+
 }
