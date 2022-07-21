@@ -16,10 +16,10 @@
   margin: 10px;
   &--red {
     color: var(--text-color-1);
-  background-color: var(--background-color-9);
+    background-color: var(--background-color-9);
   }
   &--white {
     color: var(--background-color-9);
-  background-color: var(--text-color-1);
+    background-color: var(--background-color-10);
   }
 }

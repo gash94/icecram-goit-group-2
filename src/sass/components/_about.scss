@@ -1,3 +1,73 @@
 .about {
   background: var(--background-color-2);
+
+  &__headline {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-family-headline);
+    padding-left: 41px;
+    padding-right: 41px;
+
+    &--tradition {
+      color: var(--text-color-3);
+      font-size: 18px;
+      line-height: 1.666x;
+      padding-bottom: 15px;
+    }
+    &--how-its-made {
+      color: var(--text-color-2);
+      text-align: center;
+      text-transform: uppercase;
+      font-family: var(--font-family-headline);
+      font-size: 34px;
+      line-height: 1.147x;
+      padding-bottom: 26px;
+    }
+  }
+
+  &__picture {
+    margin-bottom: 46px;
+  }
+
+  &__text {
+    font-family: var(--font-family-main);
+    margin-bottom: 47px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 12px;
+    line-height: 1.62;
+
+    &--first {
+      color: var(--text-color-4);
+    }
+
+    &--second {
+      color: var(--text-color-5);
+    }
+  }
+  /**&__button {
+    width: 176px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: var(--background-color-10);
+    color: var(--text-color-2);
+    font-size: 16px;
+    line-height: 1.3018;
+    font-family: var(--font-family-main);
+    font-weight: 700;
+  }*/
+
+  &__div-for-button {
+    padding-left: 50px;
+    padding-right: 94px;
+  }
+
+  &__button {
+    width: 176px;
+    padding-left: 37px;
+  }
+  &__mark {
+    margin-left: 13px;
+    font-size: 16px;
+  }
 }
