@@ -63,7 +63,7 @@
 .button--white {
   padding: 0 30px;
   color: var(--background-color-9);
-  background-color: var(--background-color-10);
+  background-color: var(--text-color-1);
 }
 .button--white:hover, .button--white:focus {
   background-color: #ecebeb;
