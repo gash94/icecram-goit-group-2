@@ -228,7 +228,7 @@
 .products__list {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 98px 20px;
+  padding: 0 20px 0 20px;
   align-items: center;
   justify-content: center;
 }
@@ -289,13 +289,10 @@
   padding: 0 39px;
 }
 .products__descriptions::before {
-  content: "";
-  background-image: url("/images/products/dot.png");
+  content: url("/images/products/dot.png");
   display: inline-block;
-  justify-content: center;
   min-width: 100%;
-  padding-bottom: 30px;
-  height: 6px;
+  padding: 16px 0;
   background-repeat: no-repeat;
 }
 .products__descriptions-item {
@@ -307,7 +304,6 @@
   font-family: "Titan One";
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 30px;
 }
 .products__icon {
   margin-top: -45%;
