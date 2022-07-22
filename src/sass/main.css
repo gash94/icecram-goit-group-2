@@ -282,31 +282,36 @@
     line-height: 34px;
     letter-spacing: 0.04em;
     color: var(--text-color-2);
+    margin-bottom: 16px;
   }
-  .footer__header--item1--item2 {
+  .footer__header--item2 {
     font-size: 58px;
     line-height: 66px;
     letter-spacing: 0.06em;
     color: var(--text-color-2);
   }
-  .footer__header--item1__social-list {
+  .footer {
+    max-width: 100%;
+  }
+  .footer__social-list {
     margin-right: 121px;
   }
-  .footer__header--item1__social-svg {
+  .footer__social-svg {
     width: 34px;
     height: 34px;
   }
-  .footer__header--item1__social-icon:hover {
+  .footer__social-icon:hover {
     background-image: "../images/icons.svg#icon-github-desktop";
     background-image: "../images/icons.svg#icon-telegram-desktop";
     background-image: "../images/icons.svg#icon-facebook-desktop";
   }
-  .footer__header--item1__social-item {
+  .footer__social-item {
     margin-left: 24px;
   }
 }
-@media screen and (min-width: 1280px) and (min-width: 768px) and (max-width: 1279px) {
-  .footer__header {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    width: 100%;
     /*social-media*/
   }
   .footer__header--item1 {
@@ -321,25 +326,31 @@
     letter-spacing: 0.06em;
     color: var(--text-color-2);
   }
-  .footer__header__social-list {
+  .footer__social-list {
     margin-right: 36px;
   }
-  .footer__header__social-svg {
+  .footer__social-svg {
     width: 34px;
     height: 34px;
   }
-  .footer__header__social-item {
+  .footer__social-item {
     margin-left: 30px;
   }
 }
-@media screen and (min-width: 1280px) and (min-width: 320px) and (max-width: 767px) {
-  .footer__header__header {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    width: 100%;
+  }
+  .footer__header {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 43px;
   }
-  .footer__header__social-list {
+  .footer__social-list {
     margin-bottom: 46px;
+  }
+  .footer__social {
+    margin-bottom: 43px;
   }
 }
 .copyright {
