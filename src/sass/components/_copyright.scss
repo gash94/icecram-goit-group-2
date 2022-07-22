@@ -23,6 +23,7 @@
 //desktop
 @media screen and (min-width: 1280px) {
     .copyright{
+    flex-direction: row;
     height: 45px;  
     }
 }
