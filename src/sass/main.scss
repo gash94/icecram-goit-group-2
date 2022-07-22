@@ -8,14 +8,17 @@
 @import './base/common';
 @import './base/container';
 @import './base/section';
-
+@import './utils/variables';
 @import './components/button';
+
+
+@import './components/header';
 @import './base/products';
 @import './components/about';
 @import './components/contacts';
-@import './components/header';
 
-@import './utils/variables';
+
+
 
 
 
