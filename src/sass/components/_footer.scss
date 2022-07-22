@@ -25,7 +25,7 @@
     text-transform: uppercase;
     color: var(--text-color-2);
 }
-}
+
 /*social media*/
 &__social-list{
     display: flex;
@@ -68,9 +68,9 @@
     /* or 22px */
     text-align: right;
     color: var(--text-color-2);
+        }
+        }
 }
-}
-
 //desktop
 @media screen and (min-width: 1280px) {
     .footer__header{
@@ -142,6 +142,5 @@
     &__header{
         flex-direction: column;
         align-items: flex-start;
-}
 }
 }
