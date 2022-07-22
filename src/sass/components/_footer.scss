@@ -25,30 +25,33 @@
     text-transform: uppercase;
     color: var(--text-color-2);
 }
-
+}
 /*social media*/
-&__social-list{
+.footer__social{
+    width: 100%;
+
+&-list{
     display: flex;
     flex-direction: row;
     justify-content: right;
     margin-right: 20px;
     list-style: none;
 }
-&__social-item{
+&-item{
     margin-left: 28px;
     display: flex;
     justify-content: center;
 }
-&__social-svg{
+&-svg{
     width: 32px;
     height: 32px;
     }
-
+}
 /*social media*/
-&__contact{
+.footer__contact{
     display: flex;
     list-style: none;
-}
+
 &-link {
     font-family: var(--font-family-main);
     font-style: normal;
@@ -70,7 +73,8 @@
     color: var(--text-color-2);
         }
         }
-}
+    }
+
 //desktop
 @media screen and (min-width: 1280px) {
     .footer__header{
