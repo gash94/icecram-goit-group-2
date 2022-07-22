@@ -20,6 +20,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
+    padding-left: 20px;
     line-height: 39px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -51,6 +52,7 @@
 .footer__contact{
     display: flex;
     list-style: none;
+    justify-content: flex-end;
 
 &-link {
     font-family: var(--font-family-main);
@@ -146,6 +148,10 @@
     &__header{
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 43px;
 }
+    &__social-list {
+        margin-bottom: 46px;
+}   
 }
     } }
