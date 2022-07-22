@@ -3,6 +3,7 @@
 }
 .footer__header{
     display: flex;
+    flex-direction: column;
 
 @media screen and (min-width: 450px) and (max-width: 1279px) {
     &__header{
@@ -74,6 +75,7 @@ display: flex;
 flex-direction: row;
 justify-content: right;
 margin-right: 20px;
+list-style: none;
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     &__social-list {
