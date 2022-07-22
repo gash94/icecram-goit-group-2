@@ -31,24 +31,6 @@
   background-position: center;
 }
 
-.advantages__title {
-  display: none;
-}
-.advantages__list {
-  display: flex;
-  flex-direction: column;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .advantages__list {
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .advantages__list {
-    flex-direction: row;
-  }
-}
 .button {
   height: 44px;
   width: auto;
@@ -218,6 +200,24 @@
   }
   .contacts__mail {
     line-height: 26px;
+  }
+}
+.advantages__title {
+  display: none;
+}
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .advantages__list {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advantages__list {
+    flex-direction: row;
   }
 }
 :root {
