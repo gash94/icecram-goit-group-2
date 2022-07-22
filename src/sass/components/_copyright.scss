@@ -3,30 +3,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 43px;
     width: 100%;
     height: 89px;
     border: 1px solid #E1E1E1;
+    
+    &-text {
+        font-family: var(--font-family-main);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 152%;
+        /* or 21px */
+        text-align: center;
+        color: var(--text-color-5);
     }
+}
+//desktop
+@media screen and (min-width: 1280px) {
+    .copyright{
+    height: 45px;  
+    }
+}
+
+//tablet
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .copyright{
     flex-direction: row;
     height: 73px;
     }
 }
-@media screen and (min-width: 1280px) {
-    .copyright{
-    height: 45px;  
-    }
-}
-.copyright-text {
-    font-family: var(--font-family-main);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 152%;
-    /* or 21px */
-    text-align: center;
-    color: var(--text-color-5);
 
 @media screen and (min-width: 768px) {
     .copyright-text{
@@ -34,5 +40,4 @@
         /* identical to box height, or 26px */
         letter-spacing: 0.02em;
     }
-}
 }
