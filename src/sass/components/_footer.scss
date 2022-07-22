@@ -82,7 +82,7 @@
     line-height: 34px;
     letter-spacing: 0.04em;
     color: var(--text-color-2);
-}
+
     &--item2{
         font-size: 58px;
         line-height: 66px;
@@ -142,5 +142,6 @@
     &__header{
         flex-direction: column;
         align-items: flex-start;
+}
 }
 }
