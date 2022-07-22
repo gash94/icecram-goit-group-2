@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header-uppercontent">
             <!--    Ice Craam Logo      -->
-            <div class="logo">
+            <div class="header-uppercontent__logo">
                 <img class="logo__img" src="./images/mobile/logo-mob.png" srcset="./images/mobile/logo-mob.png 199w,
                 ./images/mobile/logo-mob@2x.png 398w,
                 ./images/tablet/logo-tab.png 200w,
@@ -13,10 +13,12 @@
             </div>
 
             <!--    Navigation section  -->
-            <nav class="navigation">
+            <nav class="header-uppercontent__navigation">
                 <menu class="nav">
+
                     <li class="nav-item">
-                        <a class="nav__link nav__link-activepage" href="./index.html">Home</a>
+                        <a class="nav__link nav__link--activepage" href="./index.html">Home</a>
+
                     </li>
                     <li class="nav-item">
                         <a class="nav__link" href="#about">About us</a>
@@ -35,20 +37,34 @@
             <!--    Hamburger section   -->
 
             <!--    Buy now button      -->
-            <button class="buy-now" type="button">Buy now</button>
+            <button class="header-uppercontent__button button button" type="button">Buy now &#x3e;</button>
         </div>
 
         <div class="header-main">
-            <div>
-                <h1 class="header-main__title">ICE CREAM MADE WITH <span
-                        class="header-main__title--color">PASSION</span></h1>
-                <button class="header-main__button--products" type="button">Products</button>
-                <button class="header-main__button--made" type="button">How it's made?</button>
+            <div class="header-main__title">
+                <h1 class="header-main__title--white">ICE CREAM MADE WITH <span
+                        class="header-main__title--red">PASSION</span></h1>
+                <button class="header-main__button button button--red" type="button">Products</button>
+                <button class="header-main__button button button--white" type="button">How it's made?</button>
+            </div>
+
+            <div class="header-main__img">
+                <img class=" header-main__img--ice" src="./images/mobile/ice-mob.png" srcset="./images/mobile/ice-mob.png 171w,
+                    ./images/mobile/ice-mob@2x.png 342w, 
+                    ./images/tablet/ice-tab.png 143w,
+                    ./images/tablet/ice-tab@2x.png 286w,
+                    ./images/desktop/ice-des.png 236w,
+                    ./images/desktop/ice-des@2x.png 472w" alt="Ice Cream"
+                    sizes="(min-width:1280px) 236px, (min-width:768px) 143px, (min-width:320px) 171px">
             </div>
 
             <div class="header-main-info">
-                <p class="header-main__text"><span class="header-main__text--color">16</span>cafes</p>
-                <p class="header-main__text"><span class="header-main__text--color">23</span>food tracks</p>
+                <div class="header-main-info__box--1">
+                    <p class="header-main-info__text"><span class="header-main-info__text--16">16</span>cafes</p>
+                </div>
+                <div class="header-main-info__box--2">
+                    <p class="header-main-info__text"><span class="header-main-info__text--23">23</span>food tracks</p>
+                </div>
             </div>
         </div>
 
@@ -62,10 +78,15 @@
                 <p class="header-lowercontent__text--description">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Recusandae
                     suscipit velit dolor ad eligendi reiciendis perferendis incidunt dolores doloremque blanditiis?</p>
-                <button class="header-lowercontent__text--button" type="button">Arrow</button>
+                <button class="header-lowercontent__button" type="button">
+                    <img class="header-lowercontent__button--color "src="./images/tablet/arrow-right-tab.png" srcset="./images/tablet/arrow-right-tab.png 18w,
+                        ./images/tablet/arrow-right-tab@2x.png 36w,
+                        ./images/desktop/arrow-right-des.png 26w,
+                        ./images/desktop/arrow-right-des@2x.png 52w" alt="right arrow"
+                        sizes="(min-width:1280px) 26px, (min-width:768px) 18px">
+                </button>
             </div>
             <img class="header-lowercontent__img--tasty" src="./images/tablet/tasty-tab.png" srcset="./images/tablet/tasty-tab.png 168w,
-
             ./images/tablet/tasty-tab@2x.png 336w,
             ./images/desktop/tasty-des.png 293w, 
             ./images/desktop/tasty-des@2x.png 586w" alt="Lady with ice cream"
