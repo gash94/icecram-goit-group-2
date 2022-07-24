@@ -1,7 +1,7 @@
 .page-header {
     margin: 0 auto;
     padding: 0 auto;
-    min-height: 488px;
+    min-height: 489px;
     display: flex;
     position: relative;
     background-color: var(--background-color-3);
@@ -16,7 +16,6 @@
     margin-bottom: 130px;
 
     &__logo{
-        margin-left:20px;
         margin-top: 6px;
     }
 
@@ -176,7 +175,7 @@
     margin-right: 34px;
     margin-left: 34px;
     align-items: center;
-    justify-content:space-around;
+    justify-content:flex-start;
 
     &__text {
         z-index: 50;
@@ -210,8 +209,8 @@
 
     &__img{
         &--tasty{
+            margin-left: auto;
             z-index: 50;
-            padding-left:250px;
             align-self: flex-end;
         }
     }
@@ -270,8 +269,9 @@
                 text-decoration: none;
                 color: var(--text-color-1);
 
-                &--activepage{
-                    color: var(--text-color-2);
+                &:hover,
+                &:focus {
+                    color: #c7133e;
                 }
             }
         }
