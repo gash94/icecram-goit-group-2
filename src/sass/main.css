@@ -1092,8 +1092,6 @@
 }
 .slider__user-review {
   position: relative;
-  top: 0;
-  left: 0;
   margin-top: 29px;
   margin-bottom: 30px;
   background-color: var(--background-color-8);
@@ -1107,9 +1105,10 @@
   padding: 43px 60px 26px 61px;
 }
 .slider__user-review::before {
-  content: "";
-  background-image: url("../images/sprite-for-slider.svg#icon-red-dot");
   display: inline-block;
+  content: "";
+  background-image: url("../images/99.png");
+  background-size: contain;
   position: absolute;
   width: 54px;
   height: 40px;
