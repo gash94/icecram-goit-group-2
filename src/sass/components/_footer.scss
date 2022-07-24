@@ -49,10 +49,20 @@ p:nth-child(2n) {
     margin-left: 28px;
     display: flex;
     justify-content: center;
+    width: 34px;
+    height: 34px;
 }
+&-icon{
+    padding: 7px;
+    fill: #fff;
+    background-color: var(--icon-background-color);
+    border-radius: 50%;
+    
+}
+
 &-svg{
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
     }
 }
 /*social media*/
@@ -123,10 +133,6 @@ p:nth-child(2n) {
         margin-right: 121px;
         margin-bottom: 50px;
     }
-    &__social-svg{
-        width: 34px;
-        height: 34px;
-        }
 
     &__social-item:hover{
         cursor: pointer;
@@ -134,18 +140,12 @@ p:nth-child(2n) {
     &__social-item{
         margin-left: 24px;
         }
-    &__social-item1:hover{
-        transform: background-image;
-        background-image: "../src/images/icons.svg#icon-github-desktop";
+
+    &__social-icon1:hover, &__social-icon2:hover, &__social-icon3:hover{
+        color: #fff;
+        background-color: var(--text-color-2);
     }
-    &__social-item2:hover{
-        transform: background-image;
-        background-image: "../src/images/icons.svg#icon-telegram-desktop";
-    }
-    &__social-item3:hover{
-        transform: background-image;
-        background-image: "../src/images/icons.svg#icon-facebook-desktop";
-    }
+
     &__contact{
         margin-top: 13px;
     }
@@ -192,10 +192,6 @@ p:nth-child(2n) {
     &__social-list {
         margin-right: 21px;
         margin-bottom: 46px;
-    }
-    &__social-svg{
-       width: 34px;
-       height: 34px;
     }
     &__social-item{
         margin-left: 30px;
