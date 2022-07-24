@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: var(--font-family-main);
 
   &__avatar {
     height: 85px;
@@ -18,14 +19,39 @@
     font-size: 12px;
     line-height: 2.55;
     font-family: var(--font-family-main);
+    //tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      margin-top: 19px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      line-height: 2.16;
+      width: 620px;
+    }
+    //  desktop
+    @media screen and (min-width: 1280px) {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 1.86;
+      width: 926px;
+    }
   }
+
   &__text {
     text-align: center;
     padding: 43px 66px 26px 57px;
     position: relative;
     z-index: 1000;
+    //tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      padding: 47px 80px 34px 80px;
+    }
+    //  desktop
+    @media screen and (min-width: 1280px) {
+      padding: 47px 89px 39px 87px;
+    }
   }
-  //url('../images/sprite-for-slider.svg#icon-ninety-nine');
+
   &__user-review::before {
     display: inline-block;
     content: '';
@@ -37,7 +63,13 @@
     top: 28px;
     left: 61px;
     z-index: 0;
+    //tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      top: 30px;
+      left: 40px;
+    }
   }
+
   &__gradient {
     position: absolute;
     top: 30px;
@@ -52,21 +84,59 @@
       #e1e1e1 0,
       #e1e1e1 31px
     );
+    //tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      width: 524px;
+      height: 106px;
+      top: 45px;
+      left: 60px;
+    }
+    //  desktop
+    @media screen and (min-width: 1280px) {
+      width: 813px;
+      height: 62px;
+      top: 47px;
+      left: 59px;
+    }
   }
+
   &__three-dots {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 18px;
+    //tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      margin-bottom: 14px;
+    }
+    //  desktop
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 15px;
+    }
+  }
+  &__red-dot {
+    width: 4px;
+    height: 4px;
   }
 
   &__user-name {
     font-weight: 500;
     font-size: 14px;
-    line-height: 186%;
+    line-height: 1.86;
     //align-self: center;
     margin-bottom: 30px;
+    //tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      margin-bottom: 35px;
+      font-size: 16px;
+    }
+    //desktop
+    @media screen and (min-width: 1280px) {
+      font-size: 20px;
+      margin-bottom: 35px;
+    }
   }
+
   &__slider {
     display: flex;
     justify-content: center;
@@ -78,16 +148,17 @@
     height: 12px;
     fill: var(--background-color-9);
   }
-  &__red-dot-icon {
+  &__dot-icon {
     width: 12px;
     height: 12px;
     fill: #d9d9d9;
   }
 }
+
 /*// tablet
    @media screen and (min-width: 768px) and (max-width: 1279px) {
   padding-top: 121px;
   }
    //  desktop
   @media screen and (min-width: 1280px) {
-   padding-top: 123px;*/
+   ;*/
