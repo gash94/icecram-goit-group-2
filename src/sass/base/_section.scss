@@ -36,6 +36,21 @@
     }
   }
 
+  &__customer-reviews {
+    padding-top: 80px;
+    // tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      padding-top: 121px;
+      padding-left: 74px;
+      padding-right: 74px;
+      padding-bottom: 119px;
+    }
+    //  desktop
+    @media screen and (min-width: 1280px) {
+      padding-top: 123px;
+    }
+  }
+
   @media screen and (min-width: 1280px) {
     //  desktop
   }
