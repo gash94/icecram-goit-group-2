@@ -8,11 +8,23 @@
 @import './base/common';
 @import './base/container';
 @import './base/section';
+@import './utils/variables';
 
 @import './components/button';
-@import './components/contacts';
 
-@import './utils/variables';
+
+
+
+@import './components/header';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/contacts';
+@import './components/gallery';
+
+
+
+
 
 @import './components/footer';
 @import './components/copyright';
