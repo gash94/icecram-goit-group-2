@@ -64,6 +64,23 @@
     background-position: 0px 342px;
   }
 }
+.section__customer-reviews {
+  padding-top: 80px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .section__customer-reviews {
+    padding-top: 121px;
+    padding-left: 74px;
+    padding-right: 74px;
+    padding-bottom: 119px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section__customer-reviews {
+    padding-top: 123px;
+  }
+}
+
 :root {
   --font-family-main: "DM Sans", sans-serif;
   --font-family-headline: "Titan One", cursive;
@@ -1085,13 +1102,15 @@
 .slider {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .slider__avatar {
-  align-self: center;
   height: 85px;
 }
 .slider__user-review {
   position: relative;
+  width: 280px;
+  height: 100%;
   margin-top: 29px;
   margin-bottom: 30px;
   background-color: var(--background-color-8);
@@ -1102,7 +1121,9 @@
 }
 .slider__text {
   text-align: center;
-  padding: 43px 60px 26px 61px;
+  padding: 43px 66px 26px 57px;
+  position: relative;
+  z-index: 1000;
 }
 .slider__user-review::before {
   display: inline-block;
@@ -1114,20 +1135,49 @@
   height: 40px;
   top: 28px;
   left: 61px;
-  fill: black;
-  padding-left: 0;
+  z-index: 0;
+}
+.slider__gradient {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  display: inline-block;
+  width: 180px;
+  height: 255px;
+  background-image: repeating-linear-gradient(180deg, transparent 0, transparent 30px, #e1e1e1 0, #e1e1e1 31px);
 }
 .slider__three-dots {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  margin-bottom: 18px;
 }
 .slider__user-name {
   font-weight: 500;
   font-size: 14px;
   line-height: 186%;
-  align-self: center;
+  margin-bottom: 30px;
 }
 .slider__slider {
   display: flex;
   justify-content: center;
-}/*# sourceMappingURL=main.css.map */
+  gap: 18px;
+}
+.slider__house-icon {
+  width: 13px;
+  height: 12px;
+  fill: var(--background-color-9);
+}
+.slider__red-dot-icon {
+  width: 12px;
+  height: 12px;
+  fill: #d9d9d9;
+}
+
+/*// tablet
+   @media screen and (min-width: 768px) and (max-width: 1279px) {
+  padding-top: 121px;
+  }
+   //  desktop
+  @media screen and (min-width: 1280px) {
+   padding-top: 123px;*//*# sourceMappingURL=main.css.map */
