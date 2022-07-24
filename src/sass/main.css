@@ -381,6 +381,13 @@
   }
 }
 
+.advantages {
+  background-color: var(--background-color-2);
+}
+.advantages__title {
+  display: none;
+
+
 :root {
   --font-family-main: "DM Sans", sans-serif;
   --font-family-headline: "Titan One", cursive;
@@ -408,9 +415,11 @@
 .products__list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 0 20px 0 20px;
   align-items: center;
   justify-content: center;
+
 }
 .products__box {
   border-radius: 24px;
@@ -522,7 +531,43 @@
   margin: 62px 0 50px 0;
 }
 
+.advantages__box--fist::before {
+  content: url(/images/adventages/mobile/adventages1.png);
+  width: 33px;
+  height: 50px;
+}
+
+.advantages__box--second::before {
+  content: url(/images/adventages/mobile/adventages2.png);
+  width: 50px;
+  height: 50px;
+}
+
+.advantages__box--third::before {
+  content: url(/images/adventages/mobile/adventages3.png);
+  width: 44px;
+  height: 50px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .advantages__box--fist::before {
+    content: url(/images/adventages/tablet/tablet-adventages1.png);
+    width: 33px;
+    height: 50px;
+  }
+  .advantages__box--second::before {
+    content: url(/images/adventages/tablet/tablet-adventages2.png);
+    width: 50px;
+    height: 50px;
+  }
+  .advantages__box--third::before {
+    content: url(/images/adventages/tablet/tablet-adventages3.png);
+    width: 44px;
+    height: 50px;
+  }
+  .advantages__list {
+    flex-direction: row;
+    justify-content: center;
   .products__list {
     flex-direction: row;
     justify-content: space-around;
@@ -558,6 +603,7 @@
   .products__title--color-second {
     font-size: 48px;
     line-height: 55px;
+    margin-bottom: 13px;
   }
   .products__title--color-first {
     font-size: 26px;
@@ -569,6 +615,29 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
+  .advantages__box--fist::before {
+    content: url(/images/adventages/desktop/desktop-adventages1.png);
+    width: 33px;
+    height: 50px;
+  }
+  .advantages__box--second::before {
+    content: url(/images/adventages/tablet/tablet-adventages2.png);
+    width: 50px;
+    height: 50px;
+  }
+  .advantages__box--third::before {
+    content: url(/images/adventages/tablet/tablet-adventages3.png);
+    width: 44px;
+    height: 50px;
+  }
+  .advantages__list {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    padding-left: 36px;
+    padding-right: 76px;
+
   .products__list {
     flex-direction: row;
     justify-content: space-around;
@@ -608,6 +677,7 @@
   .products__title--color-second {
     font-size: 58px;
     line-height: 66px;
+    margin-bottom: 13px;
   }
   .products__title--color-first {
     font-size: 30px;
