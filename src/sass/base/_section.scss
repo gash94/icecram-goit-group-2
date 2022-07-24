@@ -35,13 +35,10 @@
       }
     }
   }
-
-  @media screen and (min-width: 1280px) {
-    //  desktop
-  }
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
-    // tablet
-  }
-  @media screen and (min-width: 450px) and (max-width: 767px) {
-  }
+ &__footer {
+  padding-bottom: 0px;
+ }
+ &__advantages {
+  padding-top: 0px;
+ }
 }
