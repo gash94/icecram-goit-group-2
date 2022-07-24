@@ -1,14 +1,16 @@
 .slider {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   &__avatar {
-    align-self: center;
     height: 85px;
   }
 
   &__user-review {
     position: relative;
+    width: 280px;
+    height: 100%;
     margin-top: 29px;
     margin-bottom: 30px;
     background-color: var(--background-color-8);
@@ -19,7 +21,9 @@
   }
   &__text {
     text-align: center;
-    padding: 43px 60px 26px 61px;
+    padding: 43px 66px 26px 57px;
+    position: relative;
+    z-index: 1000;
   }
   //url('../images/sprite-for-slider.svg#icon-ninety-nine');
   &__user-review::before {
@@ -32,21 +36,44 @@
     height: 40px;
     top: 28px;
     left: 61px;
-    fill: black;
-    padding-left: 0;
+    z-index: 0;
+  }
+  &__gradient {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    display: inline-block;
+    width: 180px;
+    height: 255px;
+    background-image: repeating-linear-gradient(
+      180deg,
+      transparent 0,
+      transparent 30px,
+      #e1e1e1 0,
+      #e1e1e1 31px
+    );
   }
   &__three-dots {
     display: flex;
     justify-content: center;
+    gap: 10px;
+    margin-bottom: 18px;
   }
   &__user-name {
     font-weight: 500;
     font-size: 14px;
     line-height: 186%;
-    align-self: center;
+    //align-self: center;
+    margin-bottom: 30px;
   }
   &__slider {
     display: flex;
     justify-content: center;
+    gap: 18px;
+  }
+
+  &__house-icon {
+    width: 13px;
+    height: 12px;
   }
 }
