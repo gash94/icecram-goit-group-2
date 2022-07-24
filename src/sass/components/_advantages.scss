@@ -6,7 +6,6 @@
   &__list {
     display: flex;
     flex-direction: column;
-
     align-items: center;
   }
   &__box {
@@ -69,7 +68,7 @@
   }
   .advantages__list {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
   .advantages__style {
     font-size: 48px;
@@ -97,7 +96,7 @@
   }
   .advantages__list {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     padding-left: 36px;
     padding-right: 76px;
