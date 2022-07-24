@@ -141,7 +141,7 @@ p:nth-child(2n) {
         margin-left: 24px;
         }
 
-    &__social-icon1:hover, &__social-icon2:hover, &__social-icon3:hover{
+    &__social-icon:hover{
         color: #fff;
         background-color: var(--text-color-2);
     }
