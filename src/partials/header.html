@@ -1,6 +1,7 @@
-<header class="page-header">
+<header class="page-header" id="home">
     <div class="container">
         <div class="header-uppercontent">
+
             <!--    Ice Craam Logo      -->
             <div class="header-uppercontent__logo">
                 <img class="logo__img" src="./images/mobile/logo-mob.png" srcset="./images/mobile/logo-mob.png 199w,
@@ -33,7 +34,7 @@
                 </menu>
             </nav>
             <!--    Hamburger section   -->
-            <div class="menu-container js-menu-container" id="mobile-menu">
+            <div class="header-uppercontent__hamburger menu-container js-menu-container" id="mobile-menu">
 
                 <button class="menu-toggle js-close-menu">
                     <svg class="menu-toggle__icon" fill="currentColor" viewBox="0 0 20 20" width="24" height="24">
@@ -44,25 +45,13 @@
                 </button>
         
                 <ul class="mobile-menu">
+                    <li class="mobile-menu__item"><button class="button button--white" type="button">Buy now &#x3e;</button></li>
                     <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link--active-page"
-                            href="./index.html">Agencja</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Portfolio</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#contact">Kontakt</a></li>
-                </ul>
-                <ul class="mobile-contact">
-                    <li class="mobile-contact__tel"><a href="tel:+4811111111" class="mobile-contact__link-tel">
-                            +48 111 111 111</a></li>
-                    <li class="mobile-contact__mail"><a href="mailto:info@devstudio.com" class="mobile-contact__link-mail">
-                            info@devstudio.com</a></li>
-                </ul>
-                <ul class="mobile-social">
-                    <li class="mobile-social__item"><a href="#instagram" class="mobile-social__link">Instagram <span
-                                class="mobile-social__line">|</span></a></li>
-                    <li class="mobile-social__item"><a href="#twitter" class="mobile-social__link">Twitter <span
-                                class="mobile-social__line">|</span></a></li>
-                    <li class="mobile-social__item"><a href="#facebook" class="mobile-social__link">Facebook <span
-                                class="mobile-social__line">|</span></a></li>
-                    <li class="mobile-social__item"><a href="#linkedin" class="mobile-social__link">Linkedin</a></li>
+                            href="./index.html">Home</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#about">About us</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#made">How it's made?</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#products">Products</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         
@@ -72,6 +61,8 @@
         
 
         <div class="header-main">
+
+            <!--    Main title section  -->
             <div class="header-main__title">
                 <h1 class="header-main__title--white">ICE CREAM <br> MADE WITH <span
                         class="header-main__title--red">PASSION</span></h1>
@@ -79,6 +70,7 @@
                 <button class="header-main__button button button--white" type="button">How it's made?</button>
             </div>
 
+            <!--    Ice Cream Image -->
             <div class="header-main__img">
                 <img class=" header-main__img--ice" src="./images/mobile/ice-mob.png" srcset="./images/mobile/ice-mob.png 171w,
                     ./images/mobile/ice-mob@2x.png 342w, 
@@ -89,6 +81,7 @@
                     sizes="(min-width:1280px) 236px, (min-width:768px) 143px, (min-width:320px) 171px">
             </div>
 
+            <!--    Owned places section -->
             <div class="header-main-info">
                 <div class="header-main-info__box--1">
                     <p class="header-main-info__text"><span class="header-main-info__text--16">16</span>cafes</p>
@@ -100,11 +93,15 @@
         </div>
 
         <div class="header-lowercontent">
+
+            <!--    Milk image  -->
             <img class="header-lowercontent__img--milk" src="./images/tablet/milk-tab.png" srcset="./images/tablet/milk-tab.png 124w,
                         ./images/tablet/milk-tab@2x.png 248w,
                         ./images/desktop/milk-des.png 188w,
                         ./images/desktop/milk-des@2x.png 296w" alt="A pitcher of milk"
                 sizes="(min-width:1280px) 188px, (min-width:768px) 124px">
+
+            <!--    Description section -->
             <div class="header-lowercontent__text">
                 <p class="header-lowercontent__text--description">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Saepe vel voluptatum voluptates modi eius obcaecati!</p>
@@ -116,6 +113,8 @@
                         sizes="(min-width:1280px) 26px, (min-width:768px) 18px">
                 </button>
             </div>
+
+            <!--    Woman with ice cream    -->
             <img class="header-lowercontent__img--tasty" src="./images/tablet/tasty-tab.png" srcset="./images/tablet/tasty-tab.png 168w,
             ./images/tablet/tasty-tab@2x.png 336w,
             ./images/desktop/tasty-des.png 293w, 
