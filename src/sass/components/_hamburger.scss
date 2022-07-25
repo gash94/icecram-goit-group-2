@@ -13,11 +13,11 @@
     outline: none;
 
     &__icon {
-        fill: #000;
+        fill: var(--text-color-1);
         &:active,
         &:hover,
         &:focus {
-            fill: var(--brand-main-color);
+            fill: var(--text-color-2);
         }
     }
 }
@@ -29,7 +29,8 @@
     width: 100vw;
     height: 100vh;
     padding: 48px 40px 48px 40px;
-    background-color: var(--brand-second-color);
+    background-color: var(--background-color-5);
+    visibility: hidden;
     z-index: 999;
 
     transform: translateX(100%);
@@ -38,82 +39,42 @@
 
 .menu-container.is-open {
     transform: translateX(0);
+    visibility: visible;
 }
 
 .menu-container .menu-toggle {
     position: absolute;
     top: 16px;
     right: 16px;
-    color: var(--text-main-color);
+    color: var(--text-color-2);
 }
 
 .mobile-menu {
     padding: 0;
     margin: 0;
     list-style: none;
+
+    &__item{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 1px solid #E18298
+    }
     &__link {
         display: block;
         text-align: left;
-
-        padding-bottom: 32px;
-        font-weight: 500;
-        font-size: 40px;
-        line-height: 47px;
-        letter-spacing: 0.02em;
-        color: var(--text-main-color);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        align-items: center;
+        font-family: var(--font-family-main);
+        color: var(--text-color-1);
 
         &--active-page {
-            color: var(--brand-main-color);
+            color: var(--text-color-2);
         }
     }
 }
-.mobile-contact {
-    text-align: left;
-    list-style: none;
-
-    &__tel {
-        font-weight: 500;
-        font-size: 34px;
-        line-height: 40px;
-        letter-spacing: 0.02em;
-        padding-top: 270px;
-        padding-bottom: 32px;
-    }
-    &__link-tel {
-        color: var(--brand-main-color);
-    }
-    &__mail {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0.02em;
-        padding-bottom: 60px;
-    }
-    &__link-mail {
-        color: #757575;
-    }
-}
-
-.mobile-social {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    list-style: none;
-    &__item {
-        padding-right: 6px;
-    }
-
-    &__link {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        letter-spacing: 0.02em;
-        color: var(--brand-main-color);
-    }
-    &__line {
-        color: rgba(33, 33, 33, 0.2);
-        padding-left: 4px;
-    }
-}
-
 

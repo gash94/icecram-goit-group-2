@@ -27,6 +27,11 @@
         display: none;
         visibility: hidden;
     }
+
+    &__hamburger{
+        display:flex;
+        visibility: visible;
+    }
 }
 
 .header-main{
@@ -204,7 +209,7 @@
         align-self: flex-start;
         margin-left: 0;
         padding-left: 0;
-        background-color: var(--background-color-3);
+        background-color: transparent;
     }
 
     &__img{
