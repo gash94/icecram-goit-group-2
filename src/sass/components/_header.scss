@@ -30,6 +30,8 @@
 
   &__hamburger {
     display: flex;
+    align-content: center;
+    justify-content: end;
     visibility: visible;
   }
 }
@@ -245,6 +247,10 @@
       height: 44px;
       width: 159px;
     }
+    &__hamburger {
+        display: none;
+        visibility: hidden;
+      }
 
     .nav {
       display: flex;
@@ -506,6 +512,16 @@
     &__logo {
       margin-top: 37px;
     }
+    &__hamburger {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 25px;
+        margin-right: 30px;
+        margin-left: auto;
+        visibility: visible;
+        z-index: 500;
+      }
   }
 
   .header-main {
