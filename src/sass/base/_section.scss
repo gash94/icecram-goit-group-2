@@ -35,10 +35,25 @@
       }
     }
   }
+
+
+  &__customer-reviews {
+    padding-top: 80px;
+    // tablet
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      padding-left: 74px;
+      padding-right: 74px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
  &__footer {
   padding-bottom: 0px;
  }
  &__advantages {
   padding-top: 0px;
  }
-}
+
