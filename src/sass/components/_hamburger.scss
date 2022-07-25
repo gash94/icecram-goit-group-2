@@ -1,6 +1,7 @@
 .menu-toggle {
+    
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
     min-height: 40px;
     min-width: 40px;
     display: flex;
@@ -23,6 +24,7 @@
 }
 
 .menu-container {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -47,6 +49,7 @@
     top: 16px;
     right: 16px;
     color: var(--text-color-2);
+    
 }
 
 .mobile-menu {
