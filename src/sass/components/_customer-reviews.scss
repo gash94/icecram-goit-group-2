@@ -148,12 +148,12 @@
     content: url('../images/slider-icons.png');
     display: inline-block;
     min-width: 100%;
-    padding: 30px 0;
+    padding-top: 30px;
     background-repeat: no-repeat;
     text-align: center;
     //tablet + desktop
     @media screen and (min-width: px) {
-      padding: 35px;
+      padding-top:35px;
     }
   }
   }
