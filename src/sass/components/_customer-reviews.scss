@@ -145,7 +145,16 @@
     text-align: center;
   }
 
-
+  &__user-name::after {
+    content: url('../images/slider-icons.png');
+    display: inline-block;
+    min-width: 100%;
+    padding: 16px 0;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  }
+/*
   &__slider {
     display: flex;
     justify-content: center;
@@ -161,5 +170,4 @@
     width: 12px;
     height: 12px;
     fill: var(--background-color-11);
-  }
-}
+  }*/
