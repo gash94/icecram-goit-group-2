@@ -99,25 +99,6 @@
       left: 59px;
     }
   }
-/*
-  &__three-dots {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 18px;
-    //tablet
-    @media screen and (min-width: 768px) and (max-width: 1279px) {
-      margin-bottom: 14px;
-    }
-    //  desktop
-    @media screen and (min-width: 1280px) {
-      margin-bottom: 15px;
-    }
-  }
-  &__red-dot {
-    width: 4px;
-    height: 4px;
-  }*/
 
   &__user-name {
     font-weight: 500;
@@ -139,7 +120,7 @@
     content: url('../images/three-red-dots.png');
     display: inline-block;
     min-width: 100%;
-    padding: 16px 0;
+    padding-bottom: 18px;
     background-repeat: no-repeat;
     text-align: center;
   }
@@ -157,20 +138,4 @@
     }
   }
   }
-/*
-  &__slider {
-    display: flex;
-    justify-content: center;
-    gap: 18px;
-  }
 
-  &__house-icon {
-    width: 13px;
-    height: 12px;
-    fill: var(--background-color-9);
-  }
-  &__dot-icon {
-    width: 12px;
-    height: 12px;
-    fill: var(--background-color-11);
-  }*/
