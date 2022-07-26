@@ -1,0 +1,91 @@
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-buy">
+        <button type="button" class="modal-close" data-modal-close>
+            <svg class="icon-close-modal" width="14" height="14">
+                <use href="./images/icons.svg#icon-mobile_close_x" fill="#FFF">
+                </use>
+            </svg>
+        </button>
+
+        <p class="modal-buy__title">Create your order</p>
+
+        <div class="modal-buy__group" role="group">
+            <p class="modal-buy__group-title"> Choose product</p>
+            <ul class="modal-buy__list">
+                <li class="modal-buy__style">
+                    <input type="checkbox" name="cream" value="ice-cream" id="cream">
+                    <label for="cream">Ice cream</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="checkbox" name="coffe" value="ice-coffe" id="coffe">
+                    <label for="coffe">Ice coffee</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="checkbox" name="milskshakes" value="milkshakes" id="milkshakes">
+                    <label for="milkshakes">Milkshakes</label>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="group" role="group">
+            <p class="modal-buy__group-title"> Choose Size Ice Coffe or Milkshakes</p>
+            <ul class="modal-buy__list">
+                <li class="modal-buy__style">
+                    <input type="radio" name="size1" value="small" id="small">
+                    <label for="small">Small(200ml)</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="radio" name="size1" value="medium" id="medium">
+                    <label for="medium">Medium(300ml)</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="radio" name="size1" value="large" id="large">
+                    <label for="large">Large(400ml)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="group" role="group">
+            <p class="modal-buy__group-title"> Choose Size Ice Cream</p>
+            <ul class="modal-buy__list">
+                <li class="modal-buy__style">
+                    <input type="radio" name="size2" value="small" id="small2">
+                    <label for="small2">Small(250ml)</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="radio" name="size2" value="medium" id="medium2">
+                    <label for="medium2">Medium(500ml)</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="radio" name="size2" value="ice-box" id="ice-box2">
+                    <label for="ice-box2">Ice-Box(1000ml) </Ice-box></label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="group" role="group">
+            <p class="modal-buy__group-title"> Choose toppings</p>
+            <ul class="modal-buy__list">
+                <li class="modal-buy__style">
+                    <input type="radio" name="toppings" value="Whipped cream" id="whipped-cream">
+                    <label for="whipped-cream">Whipped cream</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="radio" name="toppings" value="Fresh fruit" id="fresh-fruit">
+                    <label for="fresh-fruit">Fresh fruit</label>
+                </li>
+                <li class="modal-buy__style">
+                    <input type="radio" name="toppings" value="Chocolate " id="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-buy__submit">
+            <label for="user-comment" class="modal-buy__group-title modal-buy__style--item">Your comments</label>
+            <textarea name="user-comment" id="user-comment" class="modal-buy__comment"
+                placeholder="comments"></textarea>
+            <button type="submit" class="button button--white">Buy now</button>
+        </div>
+    </div>
+</div>
