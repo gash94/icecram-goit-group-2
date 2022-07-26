@@ -131,8 +131,7 @@
       font-size: 16px;
     }
     //desktop
-    @media screen and (min-width: 1280px) {
-      font-size: 20px;
+    @media screen and (min-width: 768px) {
       margin-bottom: 35px;
     }
   }
@@ -149,9 +148,13 @@
     content: url('../images/slider-icons.png');
     display: inline-block;
     min-width: 100%;
-    padding: 16px 0;
+    padding: 30px 0;
     background-repeat: no-repeat;
     text-align: center;
+    //tablet + desktop
+    @media screen and (min-width: px) {
+      padding: 35px;
+    }
   }
   }
 /*
