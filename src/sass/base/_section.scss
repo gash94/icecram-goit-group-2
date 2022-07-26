@@ -45,6 +45,9 @@
       padding-right: 74px;
     }
   }
+  &__footer {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
