@@ -99,7 +99,7 @@
       left: 59px;
     }
   }
-
+/*
   &__three-dots {
     display: flex;
     justify-content: center;
@@ -117,7 +117,7 @@
   &__red-dot {
     width: 4px;
     height: 4px;
-  }
+  }*/
 
   &__user-name {
     font-weight: 500;
@@ -136,6 +136,14 @@
       margin-bottom: 35px;
     }
   }
+  &__user-name::before {
+    content: url(/icecram-goit-group-2/three-red-dots.png);
+    display: inline-block;
+    min-width: 100%;
+    padding: 16px 0;
+    background-repeat: no-repeat;
+  }
+
 
   &__slider {
     display: flex;
