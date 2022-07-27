@@ -1,0 +1,125 @@
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: var(--transition);
+  transition-property: transform, visibility, opacity;
+  z-index: 999;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  .modal-buy {
+    transform: translate(100%);
+  }
+}
+
+.modal-buy {
+  width: calc(100vw - 30px);
+  max-width: 440px;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background-color-3);
+  transition: var(--transition);
+  transition-property: transform;
+
+  &__group-title {
+    margin-bottom: 5px;
+    color: var(--text-color-2);
+    font-family: var(--font-family-main);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__list {
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  &__style {
+    font-family: var(--font-family-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25x;
+    color: var(--text-color-1);
+    &:hover {
+      color: var(--text-color-2);
+    }
+  }
+  
+  &:hover {
+    background-color: var(--background-color-4);
+  }
+  &__title {
+    margin-bottom: 30px;
+    color: var(--background-color-9);
+    font-family: var(--font-family-headline);
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+  }
+
+  &__comment {
+    width: 100%;
+    height: 80px;
+    border-radius: 24px;
+    border: 1px solid #d41443;
+    outline: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+    color: #907e82;
+    resize: none;
+  }
+
+  &__submit {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.modal-close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: var(--background-color-9);
+}
+@media screen and (min-width: 1280px) {
+  //desktop
+  .modal {
+    max-width: 528px;
+    min-height: 581px;
+    &__head {
+      max-width: 446px;
+      line-height: 30px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  // tablet
+  .modal {
+    max-width: 450px;
+  }
+}

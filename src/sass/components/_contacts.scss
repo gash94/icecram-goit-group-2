@@ -10,6 +10,7 @@
   line-height: 22px;
   letter-spacing: 0.04em;
   list-style: none;
+  margin-top: -160px;
  
 
   &__item {
@@ -142,7 +143,4 @@
       line-height: 26px;
     }
   }
-}
-@media screen and (min-width: 450px) and (max-width: 767px) {
-  //mobile
 }

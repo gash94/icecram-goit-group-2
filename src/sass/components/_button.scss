@@ -18,8 +18,10 @@
     padding: 0 30px;
     color: var(--text-color-1);
     background-color: var(--background-color-9);
-    &:hover,
-    &:focus {
+    transition: var(--transition);
+    transition-property: background-color, box-shadow;
+    &:hover {
+      box-shadow: 2px 3px 24px -7px rgba(212, 31, 31, 1);
       background-color: #c7133e;
     }
   }
@@ -27,8 +29,10 @@
     padding: 0 30px;
     color: var(--background-color-9);
     background-color: var(--text-color-1);
-    &:hover,
-    &:focus {
+    transition: var(--transition);
+    transition-property: background-color, box-shadow;
+    &:hover {
+      box-shadow: 2px 3px 24px -7px rgba(212, 31, 31, 1);
       background-color: #ecebeb;
     }
   }
