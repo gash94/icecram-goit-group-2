@@ -100,6 +100,8 @@
     bottom: -125px;
     border-radius: 50%;
     height: 344px;
+    width: 285px;
+    object-fit: none;
     background-color: var(--background-color-4);
     &--ice {
       position: relative;
