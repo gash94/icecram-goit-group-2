@@ -100,30 +100,11 @@
     }
   }
 
-  &__three-dots {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 18px;
-    //tablet
-    @media screen and (min-width: 768px) and (max-width: 1279px) {
-      margin-bottom: 14px;
-    }
-    //  desktop
-    @media screen and (min-width: 1280px) {
-      margin-bottom: 15px;
-    }
-  }
-  &__red-dot {
-    width: 4px;
-    height: 4px;
-  }
-
   &__user-name {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.86;
-    //align-self: center;
+    text-align: center;
     margin-bottom: 30px;
     //tablet
     @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -131,26 +112,38 @@
       font-size: 16px;
     }
     //desktop
-    @media screen and (min-width: 1280px) {
-      font-size: 20px;
+    @media screen and (min-width: 768px) {
       margin-bottom: 35px;
     }
   }
-
-  &__slider {
-    display: flex;
-    justify-content: center;
-    gap: 18px;
+  &__user-name::before {
+    content: url('../images/three-red-dots.png');
+    display: inline-block;
+    min-width: 100%;
+    padding-bottom: 18px;
+    background-repeat: no-repeat;
+    text-align: center;
   }
 
-  &__house-icon {
-    width: 13px;
-    height: 12px;
-    fill: var(--background-color-9);
+  &__user-name::after {
+    content: url('../images/slider-icons.png');
+    display: inline-block;
+    min-width: 100%;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+    //tablet + desktop
+    @media screen and (min-width: px) {
+      padding-top:35px;
+    }
   }
   &__dot-icon {
     width: 12px;
     height: 12px;
     fill: var(--background-color-11);
   }
-}
+  }
+
+  
+
+
