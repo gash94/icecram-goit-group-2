@@ -649,14 +649,14 @@
   }
 }
 
-@media screen and (min-width: 370px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   //mobile
-
   .header-main {
       display: flex;
       position: relative;
       align-items: center;
       justify-content: space-between;
+    
   
       &__img {
         z-index: 20;
@@ -666,7 +666,6 @@
         border-radius: 50%;
         height: 344px;
         width: 342px;
-        object-fit: none;
         background-color: var(--background-color-4);
   
         &--ice {
